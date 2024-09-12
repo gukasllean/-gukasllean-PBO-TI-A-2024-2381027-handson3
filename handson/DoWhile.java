@@ -1,4 +1,4 @@
-package handson1;
+package handson;
 
 public class DoWhile {
     public static void main(String[] args) {

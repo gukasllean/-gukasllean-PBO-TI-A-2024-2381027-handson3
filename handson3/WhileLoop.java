@@ -2,14 +2,15 @@ package handson3;
 
 public class WhileLoop {
     public static void main(String[] args) {
-        int i = 1;
+        int i = 0;
         while (i <= 20){
-            if (i % 3 == 0){
-                System.out.println(i);
+            if (i == 15){
+            break;
+            } else if (i % 3 == 0){
+                i++;
+                continue;
             }
-            else if(i >= 15){
-                break;
-            }
+            System.out.println(i);
             i++;
         }
     }
